@@ -21,7 +21,7 @@ struct googlePlacesSwiftUIApp: App {
 
 class AppDelegate: NSObject, UIApplicationDelegate {
      func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        GMSPlacesClient.provideAPIKey("AIzaSyDj1QJpCZ_1JogD3bhnkXHqJnj3A9UgjM8")
+        GMSPlacesClient.provideAPIKey("API_KEY HERE")
          return true
      }
  }
